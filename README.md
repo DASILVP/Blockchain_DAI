@@ -7,3 +7,8 @@ Integration of DAI_crypto
 chmod +x /usr/local/bin/docker-compose
 docker-compose version
 docker-compose -f four-peer-ca.yaml up
+// Start and Use Docker
+git clone https://github.com/IBM-Blockchain/fabric-images.git
+cd fabric-images/docker-compose
+. setenv.sh
+docker-compose -f four-peer-ca.yaml up
